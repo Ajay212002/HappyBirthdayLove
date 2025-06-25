@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", typeMessage);
 const loveReasons = [
   "Your laugh is my favorite melody 🎵",
   "You make every moment magical ✨",
-  "You are my home and my adventure ❤️"
+  "Your eyes speak to me when your lips stay silent💜"
 ];
 
 function showLove(index) {
