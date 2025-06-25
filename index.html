@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy Birthday My Love</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">Happy Birthday, My Love 💜</h1>
+    <p class="subtitle">Today is all about you, the light of my life!</p>
+
+    <div class="photo-section">
+      <img src="bday.jpg" alt="Your Photo" />
+    </div>
+
+    <div class="letter">
+      <h2>A Letter For You 💜</h2>
+      <p id="typing"></p>
+    </div>
+
+    <div class="reasons">
+      <h2>3 Reasons I Love You</h2>
+      <div class="heart-buttons">
+        <button onclick="showLove(0)">💜</button>
+        <button onclick="showLove(1)">💖</button>
+        <button onclick="showLove(2)">💘</button>
+      </div>
+      <p id="loveText"></p>
+    </div>
+
+    <div class="footer">
+      <p>With all my heart, forever yours.</p>
+    </div>
+  </div>
+
+  <audio autoplay loop>
+    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mp3">
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>

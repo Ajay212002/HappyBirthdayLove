@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #ffe4e1, #ffccd5);
+  color: #333;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+.container {
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.title {
+  font-size: 2.2rem;
+  color: #d63384;
+  margin-top: 40px;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.photo-section img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 15px;
+  margin: 20px 0;
+  box-shadow: 0 0 10px #d63384;
+}
+
+.letter {
+  margin-top: 30px;
+  font-size: 1.05rem;
+  padding: 15px;
+  background: #fff0f3;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #faa2c1;
+  min-height: 120px;
+}
+
+.reasons {
+  margin-top: 40px;
+}
+
+.reasons h2 {
+  color: #c2255c;
+  margin-bottom: 10px;
+}
+
+.heart-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 10px 0;
+}
+
+.reasons button {
+  font-size: 24px;
+  padding: 10px;
+  background: #fff;
+  border: 2px solid #c2255c;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.reasons button:hover {
+  background-color: #ffdce5;
+  transform: scale(1.1);
+}
+
+#loveText {
+  font-style: italic;
+  margin-top: 15px;
+  padding: 10px;
+}
+
+.footer {
+  margin-top: 50px;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #6a1b4d;
+}
+
+/* 🔽 Mobile Responsive */
+@media (max-width: 600px) {
+  .title {
+    font-size: 1.8rem;
+  }
+
+  .subtitle {
+    font-size: 0.95rem;
+  }
+
+  .letter {
+    font-size: 1rem;
+    padding: 10px;
+  }
+
+  .reasons h2 {
+    font-size: 1.2rem;
+  }
+
+  .reasons button {
+    font-size: 22px;
+    padding: 8px;
+  }
+
+  .footer {
+    font-size: 0.9rem;
+  }
+}
